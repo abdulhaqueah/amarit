@@ -1,0 +1,147 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.manur-sections{
+    margin-left: 218px;
+}
+.navbar-nav a {
+    margin-left:13px;
+}
+.carousel-caption {
+    top: 16%;
+}
+.color-bg{
+   
+}
+.carousel-item img{
+    background-color: #ff000038!important;
+}
+.collapse button{
+    margin-left: 278px;
+}
+.carousel-caption button {
+    width: 17%;
+    margin-left: 41%;
+
+}
+.course-texts{
+    margin-left: 40px;
+    top: 100px;
+}
+
+.bg-institute{
+    background-color: #bfadad29;
+    padding: 123px 0px 0px 26px;
+
+}
+.ins-mb{
+    margin-right: 20px;
+}
+
+.modual-section{
+    background-color: blue;
+    height: 200px;
+    margin-top: 50px;
+}
+.modals{
+    padding: 50px 74px;
+}
+.btn-light {
+    height: 38px;
+}
+.according-text{
+    width: 662px;
+}
+#Colps{
+    position: relative;
+}
+
+.company-sections{
+    margin-top: 100px;
+}
+
+footer{
+    background-color: black;
+    height: 320px;
+}
+.foter-text{
+  padding-top: 7%;
+}
+.color-bg{
+    background-color: navy!important;
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .collapse button{
+        margin-left: 0px;
+    }
+    .navbar-nav a {
+        margin-left: 0px;
+    }
+    .collapse button {
+        display: none;
+        }
+        .bg-institute {
+            
+            padding: 0px;
+        }
+        .navbar a{
+            margin-left: 8px;
+        }
+    .navbar-nav {
+        display: inline-flex;
+        flex-direction: row!important;
+    }
+
+    .carousel {
+       
+        margin-top: 77px;
+    }
+    .carousel-caption button {
+        width: 25%;
+    }
+    .company-sections{
+        display: none;
+    }
+        .btn-light {
+            width: 26%;
+        }
+    }
+
+
+    @media (min-width: 425px) and (max-width: 767px) {
+        .accordion-item{
+            
+        }
+     .company-sections {
+     display: none;
+  }
+  .according-text {
+      width: auto;
+  }
+  .d-flex {
+      display:block;
+  }
+  .carousel-inner{
+    margin-top: 61px;
+  }
+  .carousel-caption h1{
+        font-size: 20px;
+  }
+   .carousel-caption p{
+    display: none;
+   }
+  .carousel-item button {
+      width: 34%;
+      margin-left: 35%;
+      margin-bottom: 47px;
+  }
+           .btn-light {
+               width: 30%;
+           }
+         .mobile{
+            flex-direction: column;
+         }
+    }
